@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>widget_ui</class>
+ <widget class="QWidget" name="widget_ui">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>580</width>
+    <height>431</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Widget控件学习使用</string>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayout">
+   <item>
+    <layout class="QGridLayout" name="gridLayout">
+     <item row="6" column="0">
+      <widget class="QPushButton" name="btn_moveWindow">
+       <property name="styleSheet">
+        <string notr="true">font: 18pt &quot;Arial&quot;;</string>
+       </property>
+       <property name="text">
+        <string>移动窗口到0*0(move)</string>
+       </property>
+      </widget>
+     </item>
+     <item row="5" column="0">
+      <widget class="QPushButton" name="btn_setGeometry">
+       <property name="styleSheet">
+        <string notr="true">font: 18pt &quot;Arial&quot;;</string>
+       </property>
+       <property name="text">
+        <string>设置窗口坐标(setGeometry)</string>
+       </property>
+      </widget>
+     </item>
+     <item row="7" column="0">
+      <widget class="QPushButton" name="btn_setMinSize">
+       <property name="styleSheet">
+        <string notr="true">font: 18pt &quot;Arial&quot;;</string>
+       </property>
+       <property name="text">
+        <string>设置窗口最小为500*300</string>
+       </property>
+      </widget>
+     </item>
+     <item row="1" column="1">
+      <widget class="QPushButton" name="pushButton">
+       <property name="styleSheet">
+        <string notr="true">font: 16pt &quot;Arial&quot;;</string>
+       </property>
+       <property name="text">
+        <string>Widget无边框拖拽</string>
+       </property>
+      </widget>
+     </item>
+     <item row="2" column="0">
+      <widget class="QPushButton" name="btn_setFixSize">
+       <property name="styleSheet">
+        <string notr="true">font: 18pt &quot;Arial&quot;;</string>
+       </property>
+       <property name="text">
+        <string>设置窗口的固定大小500*500</string>
+       </property>
+      </widget>
+     </item>
+     <item row="9" column="0">
+      <widget class="QPushButton" name="btn_setMaxSize">
+       <property name="styleSheet">
+        <string notr="true">QPushButton{font: 18pt &quot;Arial&quot;;}</string>
+       </property>
+       <property name="text">
+        <string>设置窗口最大为1000*800</string>
+       </property>
+      </widget>
+     </item>
+     <item row="1" column="0">
+      <widget class="QPushButton" name="btn_getSize">
+       <property name="styleSheet">
+        <string notr="true">font: 20pt &quot;Arial&quot;;</string>
+       </property>
+       <property name="text">
+        <string>获取窗口位置和大小</string>
+       </property>
+      </widget>
+     </item>
+     <item row="8" column="0">
+      <widget class="QPushButton" name="btn_setSize">
+       <property name="styleSheet">
+        <string notr="true">font: 18pt &quot;Arial&quot;;</string>
+       </property>
+       <property name="text">
+        <string>设置窗口大小为800*600</string>
+       </property>
+      </widget>
+     </item>
+     <item row="11" column="0" colspan="2">
+      <widget class="QTextEdit" name="showTextEdit">
+       <property name="styleSheet">
+        <string notr="true">font: 16pt &quot;Arial&quot;;</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
